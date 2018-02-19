@@ -2,7 +2,7 @@
 PHP Class for easy work with PostgreSQL database<br>
 
 For tryout:
-1. run create_databse.php
+1. run create_database.php
 2. run create_table.php
 3. run query.php
 
