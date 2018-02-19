@@ -1,11 +1,12 @@
 ### PHP-PostgreSQL-Class
 PHP Class for easy work with PostgreSQL database<br>
-#####For tryout
+
+For tryout:
 1. run create_databse.php
 2. run create_table.php
 3. run query.php
 
-Example:<br>
+Query Examples:<br>
 
 ```php
 require 'classPgSql.php';
