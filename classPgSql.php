@@ -69,6 +69,7 @@ class PgSql
     // Returns last insert $id
     public function insert($sql, $id='id')
     {
+        $sql = rtrim($sql, ';');
         $sql .= ' RETURNING '.$id;
         $result = pg_query($this->db, $sql);
         if (pg_last_error()) exit(pg_last_error());
